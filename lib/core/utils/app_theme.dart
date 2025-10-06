@@ -94,10 +94,7 @@ class AppTheme {
   static PreferredSizeWidget appBarBottomBorder() {
     return PreferredSize(
       preferredSize: const Size.fromHeight(1),
-      child: Container(
-        height: 1,
-        color: Colors.grey[300],
-      ),
+      child: Container(height: 1, color: Colors.grey[300]),
     );
   }
 

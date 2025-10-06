@@ -113,7 +113,7 @@ class CartScreen extends StatelessWidget {
               children: [
                 Text('Subtotal', style: Theme.of(context).textTheme.bodyLarge),
                 Text(
-                  '\$${state.subtotal.toStringAsFixed(2)}',
+                  '₹${state.subtotal.toStringAsFixed(0)}',
                   style: Theme.of(context).textTheme.bodyLarge,
                 ),
               ],
@@ -127,7 +127,7 @@ class CartScreen extends StatelessWidget {
                   style: Theme.of(context).textTheme.bodyMedium,
                 ),
                 Text(
-                  '\$${state.deliveryFee.toStringAsFixed(2)}',
+                  '₹${state.deliveryFee.toStringAsFixed(0)}',
                   style: Theme.of(context).textTheme.bodyMedium,
                 ),
               ],
@@ -141,7 +141,7 @@ class CartScreen extends StatelessWidget {
                   style: Theme.of(context).textTheme.bodyMedium,
                 ),
                 Text(
-                  '\$${state.serviceFee.toStringAsFixed(2)}',
+                  '₹${state.serviceFee.toStringAsFixed(0)}',
                   style: Theme.of(context).textTheme.bodyMedium,
                 ),
               ],
@@ -157,7 +157,7 @@ class CartScreen extends StatelessWidget {
                   ).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
                 ),
                 Text(
-                  '\$${state.total.toStringAsFixed(2)}',
+                  '₹${state.total.toStringAsFixed(0)}',
                   style: Theme.of(context).textTheme.titleLarge?.copyWith(
                     fontWeight: FontWeight.bold,
                     color: Theme.of(context).colorScheme.primary,
@@ -281,7 +281,7 @@ class _CartItemCard extends StatelessWidget {
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  '\$${cartItem.menuItem.price.toStringAsFixed(2)} each',
+                  '₹${cartItem.menuItem.price.toStringAsFixed(0)} each',
                   style: Theme.of(
                     context,
                   ).textTheme.bodyMedium?.copyWith(color: Colors.grey[600]),
@@ -365,7 +365,7 @@ class _CartItemCard extends StatelessWidget {
                       ),
                     ),
                     Text(
-                      '\$${cartItem.totalPrice.toStringAsFixed(2)}',
+                      '₹${cartItem.totalPrice.toStringAsFixed(0)}',
                       style: Theme.of(context).textTheme.titleMedium?.copyWith(
                         color: Theme.of(context).colorScheme.primary,
                         fontWeight: FontWeight.bold,

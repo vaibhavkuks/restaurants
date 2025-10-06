@@ -26,6 +26,7 @@ class RestaurantBloc extends Bloc<RestaurantEvent, RestaurantState> {
     RefreshRestaurants event,
     Emitter<RestaurantState> emit,
   ) async {
+    emit(const RestaurantLoading());
     await _loadRestaurants(emit);
   }
 

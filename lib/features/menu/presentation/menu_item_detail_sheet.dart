@@ -115,7 +115,7 @@ class _MenuItemDetailSheetState extends State<MenuItemDetailSheet> {
                         Row(
                           children: [
                             Text(
-                              '\$${widget.menuItem.price.toStringAsFixed(2)}',
+                              '₹${widget.menuItem.price.toStringAsFixed(0)}',
                               style: Theme.of(context).textTheme.titleLarge
                                   ?.copyWith(
                                     color: Theme.of(
@@ -254,7 +254,7 @@ class _MenuItemDetailSheetState extends State<MenuItemDetailSheet> {
                             ),
                             const Spacer(),
                             Text(
-                              '\$${(widget.menuItem.price * quantity).toStringAsFixed(2)}',
+                              '₹${(widget.menuItem.price * quantity).toStringAsFixed(0)}',
                               style: Theme.of(context).textTheme.titleLarge
                                   ?.copyWith(fontWeight: FontWeight.bold),
                             ),

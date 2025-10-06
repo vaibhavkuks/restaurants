@@ -16,7 +16,7 @@ class MockMenuDataSource implements MenuDataSource {
         restaurantId: '1',
         name: 'Margherita Pizza',
         description: 'Classic tomato sauce, mozzarella, and fresh basil',
-        price: 14.99,
+        price: 1249,
         imageUrl:
             'https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?w=500',
         category: 'Pizza',
@@ -30,7 +30,7 @@ class MockMenuDataSource implements MenuDataSource {
         restaurantId: '1',
         name: 'Pepperoni Pizza',
         description: 'Classic pepperoni with mozzarella cheese',
-        price: 16.99,
+        price: 1399,
         imageUrl:
             'https://images.unsplash.com/photo-1628840042765-356cda07504e?w=500',
         category: 'Pizza',
@@ -44,7 +44,7 @@ class MockMenuDataSource implements MenuDataSource {
         restaurantId: '1',
         name: 'Caesar Salad',
         description: 'Crisp romaine lettuce with Caesar dressing',
-        price: 9.99,
+        price: 899,
         imageUrl:
             'https://images.unsplash.com/photo-1550304943-4f24f54ddde9?w=500',
         category: 'Salads',
@@ -63,7 +63,7 @@ class MockMenuDataSource implements MenuDataSource {
         restaurantId: '1',
         name: 'Tiramisu',
         description: 'Classic Italian dessert with coffee and mascarpone',
-        price: 7.99,
+        price: 699,
         imageUrl:
             'https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=500',
         category: 'Desserts',
@@ -83,7 +83,7 @@ class MockMenuDataSource implements MenuDataSource {
         restaurantId: '1',
         name: 'Garlic Bread',
         description: 'Toasted bread with garlic butter and herbs',
-        price: 5.99,
+        price: 499,
         imageUrl:
             'https://images.unsplash.com/photo-1617191511973-4c8e2f3b8f4c?w=500',
         category: 'Appetizers',
@@ -100,7 +100,7 @@ class MockMenuDataSource implements MenuDataSource {
         restaurantId: '2',
         name: 'Classic Cheeseburger',
         description: 'Beef patty with cheese, lettuce, tomato, and pickles',
-        price: 12.99,
+        price: 1099,
         imageUrl:
             'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500',
         category: 'Burgers',
@@ -121,7 +121,7 @@ class MockMenuDataSource implements MenuDataSource {
         restaurantId: '2',
         name: 'Crispy Chicken Burger',
         description: 'Crispy fried chicken with mayo and lettuce',
-        price: 13.99,
+        price: 1199,
         imageUrl:
             'https://images.unsplash.com/photo-1606755962773-d324e608eecb?w=500',
         category: 'Burgers',
@@ -135,7 +135,7 @@ class MockMenuDataSource implements MenuDataSource {
         restaurantId: '2',
         name: 'Sweet Potato Fries',
         description: 'Crispy sweet potato fries with sea salt',
-        price: 6.99,
+        price: 599,
         imageUrl:
             'https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=500',
         category: 'Sides',
@@ -152,7 +152,7 @@ class MockMenuDataSource implements MenuDataSource {
         restaurantId: '3',
         name: 'Salmon Roll',
         description: 'Fresh salmon with cucumber and avocado',
-        price: 8.99,
+        price: 749,
         imageUrl:
             'https://images.unsplash.com/photo-1579584425555-c3ce17fd4351?w=500',
         category: 'Sushi',
@@ -166,7 +166,7 @@ class MockMenuDataSource implements MenuDataSource {
         restaurantId: '3',
         name: 'Vegetable Tempura',
         description: 'Lightly battered and fried seasonal vegetables',
-        price: 11.99,
+        price: 999,
         imageUrl:
             'https://images.unsplash.com/photo-1609501676725-7186f3d37e07?w=500',
         category: 'Appetizers',
@@ -183,7 +183,7 @@ class MockMenuDataSource implements MenuDataSource {
         restaurantId: '4',
         name: 'Beef Tacos',
         description: 'Seasoned ground beef with fresh toppings',
-        price: 3.99,
+        price: 329,
         imageUrl:
             'https://images.unsplash.com/photo-1565299585323-38174c4a6471?w=500',
         category: 'Tacos',
@@ -203,7 +203,7 @@ class MockMenuDataSource implements MenuDataSource {
         restaurantId: '4',
         name: 'Chicken Burrito',
         description: 'Grilled chicken with rice, beans, and salsa',
-        price: 9.99,
+        price: 849,
         imageUrl:
             'https://images.unsplash.com/photo-1626700051175-6818013e1d4f?w=500',
         category: 'Burritos',
@@ -226,7 +226,7 @@ class MockMenuDataSource implements MenuDataSource {
         restaurantId: '5',
         name: 'Mediterranean Bowl',
         description: 'Quinoa with fresh vegetables and tahini dressing',
-        price: 12.99,
+        price: 1099,
         imageUrl:
             'https://images.unsplash.com/photo-1546069901-ba9599a7e63c?w=500',
         category: 'Bowls',
@@ -240,7 +240,7 @@ class MockMenuDataSource implements MenuDataSource {
         restaurantId: '5',
         name: 'Green Smoothie',
         description: 'Spinach, banana, apple, and protein powder',
-        price: 7.99,
+        price: 649,
         imageUrl:
             'https://images.unsplash.com/photo-1638176066666-ffb2f013c7dd?w=500',
         category: 'Beverages',

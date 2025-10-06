@@ -123,7 +123,7 @@ class MenuScreen extends StatelessWidget {
                   _buildInfoChip(
                     context,
                     Icons.delivery_dining,
-                    '\$${restaurant.deliveryFee.toStringAsFixed(2)}',
+                    '₹${restaurant.deliveryFee.toStringAsFixed(0)}',
                     Colors.green,
                   ),
                 ],
@@ -339,7 +339,7 @@ class _MenuItemCard extends StatelessWidget {
                     Row(
                       children: [
                         Text(
-                          '\$${menuItem.price.toStringAsFixed(2)}',
+                          '₹${menuItem.price.toStringAsFixed(0)}',
                           style: Theme.of(context).textTheme.titleMedium
                               ?.copyWith(
                                 color: Theme.of(context).colorScheme.primary,
@@ -633,7 +633,7 @@ class _CartBottomBar extends StatelessWidget {
                     ),
                     const SizedBox(height: 2),
                     Text(
-                      '\$${cartState.subtotal.toStringAsFixed(2)}',
+                      '₹${cartState.subtotal.toStringAsFixed(0)}',
                       style: Theme.of(context).textTheme.titleMedium?.copyWith(
                         color: Theme.of(context).colorScheme.primary,
                         fontWeight: FontWeight.bold,

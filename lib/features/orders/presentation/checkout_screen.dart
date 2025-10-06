@@ -122,7 +122,7 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
                     ),
                   ),
                   Text(
-                    '\$${item.totalPrice.toStringAsFixed(2)}',
+                    '₹${item.totalPrice.toStringAsFixed(0)}',
                     style: Theme.of(context).textTheme.bodyMedium,
                   ),
                 ],
@@ -144,7 +144,7 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
                 ).textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold),
               ),
               Text(
-                '\$${widget.cartState.total.toStringAsFixed(2)}',
+                '₹${widget.cartState.total.toStringAsFixed(0)}',
                 style: Theme.of(context).textTheme.titleMedium?.copyWith(
                   fontWeight: FontWeight.bold,
                   color: Theme.of(context).colorScheme.primary,
@@ -165,7 +165,7 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
         children: [
           Text(label, style: Theme.of(context).textTheme.bodyMedium),
           Text(
-            '\$${amount.toStringAsFixed(2)}',
+            '₹${amount.toStringAsFixed(0)}',
             style: Theme.of(context).textTheme.bodyMedium,
           ),
         ],
@@ -295,7 +295,7 @@ class _CheckoutScreenState extends State<CheckoutScreen> {
                   ).textTheme.titleLarge?.copyWith(fontWeight: FontWeight.bold),
                 ),
                 Text(
-                  '\$${widget.cartState.total.toStringAsFixed(2)}',
+                  '₹${widget.cartState.total.toStringAsFixed(0)}',
                   style: Theme.of(context).textTheme.titleLarge?.copyWith(
                     fontWeight: FontWeight.bold,
                     color: Theme.of(context).colorScheme.primary,

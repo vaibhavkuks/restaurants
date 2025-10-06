@@ -138,7 +138,7 @@ class _OrderConfirmationScreenState extends State<OrderConfirmationScreen> {
           _buildInfoRow('Order Time', _formatDateTime(widget.order.createdAt)),
           _buildInfoRow(
             'Total Amount',
-            '\$${widget.order.total.toStringAsFixed(2)}',
+            '₹${widget.order.total.toStringAsFixed(0)}',
           ),
         ],
       ),
@@ -262,7 +262,7 @@ class _OrderConfirmationScreenState extends State<OrderConfirmationScreen> {
                     ),
                   ),
                   Text(
-                    '\$${item.totalPrice.toStringAsFixed(2)}',
+                    '₹${item.totalPrice.toStringAsFixed(0)}',
                     style: Theme.of(context).textTheme.bodyMedium,
                   ),
                 ],
@@ -280,7 +280,7 @@ class _OrderConfirmationScreenState extends State<OrderConfirmationScreen> {
                 ).textTheme.titleMedium?.copyWith(fontWeight: FontWeight.bold),
               ),
               Text(
-                '\$${widget.order.total.toStringAsFixed(2)}',
+                '₹${widget.order.total.toStringAsFixed(0)}',
                 style: Theme.of(context).textTheme.titleMedium?.copyWith(
                   fontWeight: FontWeight.bold,
                   color: Theme.of(context).colorScheme.primary,
